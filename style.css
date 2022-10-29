@@ -1,0 +1,119 @@
+/* 
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+### Primary
+- Red: hsl(1, 90%, 64%)
+- Blue: hsl(219, 85%, 26%)
+
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Very light grayish blue: hsl(210, 60%, 98%)
+- Light grayish blue 1: hsl(211, 68%, 94%)
+- Light grayish blue 2: hsl(205, 33%, 90%)
+- Grayish blue: hsl(219, 14%, 63%)
+- Dark grayish blue: hsl(219, 12%, 42%)
+- Very dark blue: hsl(224, 21%, 14%) */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(210, 60%, 98%);
+}
+
+.main-container {
+  width: 46rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+header p {
+  margin-right: 2rem;
+  color: hsl(219, 14%, 63%);
+}
+
+.notification {
+  display: flex;
+}
+
+#number {
+  width: 1rem;
+  height: 1rem;
+  background-color: hsl(219, 85%, 26%);
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 0.5rem;
+  position: relative;
+}
+
+#number span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.meassge {
+  background-color: hsl(211, 68%, 94%);
+  display: flex;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.icon {
+  margin: 1rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details span {
+  color: hsl(219, 14%, 63%);
+  font-weight: 800;
+}
+
+.time {
+  color: hsl(219, 14%, 63%);
+}
+
+#organize {
+  color: hsl(219, 85%, 26%);
+  margin-left: 0.5rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
