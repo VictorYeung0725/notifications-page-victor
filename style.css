@@ -104,11 +104,26 @@ header p {
   color: hsl(219, 14%, 63%);
 }
 
+#comments {
+  background-color: white;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  border: 1px solid grey;
+}
+
+#comments:hover {
+  cursor: pointer;
+  background-color: hsl(205, 33%, 90%);
+}
+
 #organize {
   color: hsl(219, 85%, 26%);
   margin-left: 0.5rem;
 }
 
+.read {
+  background-color: white;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
