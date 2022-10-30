@@ -8,8 +8,8 @@ console.log(unRead);
 const removeUnRead = function () {
   unRead.forEach(function (red) {
     red.remove();
-    notification_number.innerHTML = unRead.length;
   });
+  notification_number.textContent = 0;
 };
 
 markRead.addEventListener('click', removeUnRead);
