@@ -30,15 +30,16 @@
     <header>
       <nav class="notification">
         <h2>Notifications</h2>
-        <div id="number"><span>3</span></div>
+        <div id="number"><span id="notification-number">3</span></div>
       </nav>
-      <p>Mark all as read</p>
+      <div id="markRead">Mark all as read</div>
     </header>
 
     <div class="meassge">
       <div class="icon"><img src="./assets/images/avatar-mark-webber.webp" alt="avatar-mark-webber"></div>
       <div class="details">
-        <p><strong>Mark Webber</strong> reacted to your recent post <span>My first tournament today!</span>
+        <p><strong>Mark Webber</strong> reacted to your recent post <span>My first tournament today!</span><span
+            id="unRead"></span>
         </p>
         <div class="time">1m ago</div>
       </div>
@@ -46,7 +47,7 @@
     <div class="meassge">
       <div class="icon"><img src="./assets/images/avatar-angela-gray.webp" alt="avatar-mark-webber"></div>
       <div class="details">
-        <p><strong>Angela Gray</strong> followed you
+        <p><strong>Angela Gray</strong> followed you <span id="unRead"></span>
         </p>
         <div class="time">5m ago</div>
       </div>
@@ -54,7 +55,8 @@
     <div class="meassge">
       <div class="icon"><img src="./assets/images/avatar-jacob-thompson.webp" alt="avatar-jacob-thompson"></div>
       <div class="details">
-        <p><strong>Jacob Thompson</strong> has joined your group<span id="organize">Chess Club</span>
+        <p><strong>Jacob Thompson</strong> has joined your group<span id="organize">Chess Club</span><span
+            id="unRead"></span>
         </p>
         <div class="time">1 day ago</div>
       </div>

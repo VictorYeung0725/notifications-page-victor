@@ -50,9 +50,18 @@ header {
   margin: 1rem;
 }
 
-header p {
+#markRead {
   margin-right: 2rem;
   color: hsl(219, 14%, 63%);
+}
+#markRead:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+
+strong:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
 }
 
 .notification {
@@ -100,6 +109,19 @@ header p {
   font-weight: 800;
 }
 
+.details span:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+
+#unRead {
+  height: 0.6rem;
+  width: 0.6rem;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: hsl(1, 90%, 64%);
+}
+
 .time {
   color: hsl(219, 14%, 63%);
 }
@@ -119,6 +141,10 @@ header p {
 #organize {
   color: hsl(219, 85%, 26%);
   margin-left: 0.5rem;
+}
+#organize:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
 }
 
 .read {
